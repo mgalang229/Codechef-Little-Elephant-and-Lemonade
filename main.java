@@ -44,34 +44,6 @@ public class Main {
 			System.out.println(ans);
 		}
 	}
-	
-	static class Pair {
-		
-		private int room;
-		private int index;
-		
-		public Pair(int room, int index) {
-			this.setRoom(room);
-			this.setIndex(index);
-		}
-		
-		public int getRoom() {
-			return room;
-		}
-		
-		public void setRoom(int room) {
-			this.room = room;
-		}
-		
-		public int getIndex() {
-			return index;
-		}
-		
-		public void setIndex(int index) {
-			this.index = index;
-		}	
-		
-	}
 		
 	static class FastReader {
 		BufferedReader br;
